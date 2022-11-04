@@ -1,6 +1,6 @@
 {
   "name": "@mbl/components",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "private": true,
   "files": ["dist"],
   "main": "dist/index.js",
