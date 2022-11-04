@@ -1,12 +1,14 @@
 {
   "name": "@mbl/components",
   "version": "1.0.2",
-  "private": true,
+  "private": false,
   "files": ["dist"],
-  "main": "dist/index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "clean": "rm -rf dist",
-    "build": "npm run clean ; tsc"
+    "build": "npm run clean ; tsc",
+    "prepare" : "npm run build"
   },
   "devDependencies": {
     "typescript": "^4.8.4"
